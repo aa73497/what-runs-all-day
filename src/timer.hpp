@@ -17,6 +17,6 @@ class Timer {
     void stop();
     string get_the_system_time();
     long long elapsed()const;
-
+void pretty_print() const;
 }
 ;
